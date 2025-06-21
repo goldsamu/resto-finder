@@ -1,0 +1,95 @@
+.map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.searchBar {
+  background-color: rgba(255, 255, 255, 0.812);
+  min-width: 100px;
+  max-width: 300px;
+  max-height: 250px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1000;
+  padding: 10px;
+  top: 10px;
+  left: 60px;
+  box-shadow: 0 10px 1rem #000000a8;
+  overflow: hidden;
+}
+
+.searchBar p {
+  margin: 0;
+}
+
+.searchButton {
+  background-color: #f0c900;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.myLocation {
+  margin-left: 5px;
+}
+
+.popup-marker button,
+.selected-search button,
+.myLocation {
+  background-color: #f0c900;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchButton:hover,
+.popup-marker button:hover,
+.selected-search button:hover,
+.myLocation:hover {
+  background-color: #c3a300;
+  cursor: pointer;
+}
+
+.loupe {
+  width: 100%;
+}
+
+.loader {
+  width: 30px;
+  height: 30px;
+}
+
+.selected-search {
+  background-color: rgba(255, 255, 255, 0.812);
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -5px 10px #000000a8;
+}
+
+.selected-search div {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.searchList {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.search-item-button {
+  margin-bottom: 10px;
+  width: 100%;
+}
