@@ -1,12 +1,16 @@
-# React + Vite
+# Resto Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application créée dans le cadre de la certification RNCP 37805 - Développeur Web Bloc 3 Développement avancé via Framework
 
-Currently, two official plugins are available:
+## But de l'application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cette application permet de trouver des restaurants sur une carte en rentrant le nom d'une ville.
+Lorsque l'on clique sur le bouton de recherche, une liste de proposition s'affiche et quand on clique dessus, la carte se centre sur la ville en question et fait apparaître des marqueurs.
+Le bouton "My Location" permet de centrer sur la position actuelle de l'utilisateur et de trouver les restaurants autour de lui.
+Cliquer sur un marqueur affiche une bulle avec un bouton. Ce bouton permet de sélectionner le restaurant.
 
-## Expanding the ESLint configuration
+## Dépendances
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Les dépendances suivantes ont été installées dans le cadre de ce projet :
+La librairie React-leflet.
+L'api Nominatim.
